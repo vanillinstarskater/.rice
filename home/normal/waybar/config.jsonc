@@ -1,0 +1,39 @@
+{
+    "height": 25,
+
+    "modules-left": ["network", "tray"],
+    "modules-center": ["pulseaudio"],
+    "modules-right": ["cpu", "memory", "clock"],
+
+    "network": {
+        "format-ethernet": "{ipaddr}",
+        "format-disconnected": "OFFLINE",
+        "tooltip": false
+    },
+    "tray": {
+        "icon-size": 15,
+        "spacing": 5,
+        "tooltip": false
+    },
+
+    "pulseaudio": {
+        "format": "{volume}%   | {format_source} ",
+        "format-muted": "MUTE   | {format_source} ",
+        "format-source": "{volume}%",
+        "format-source-muted": "MUTE",
+        "tooltip": false
+    },
+
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "{}% ",
+        "tooltip": false
+    },
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "tooltip": false
+    }
+}

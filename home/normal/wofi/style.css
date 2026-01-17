@@ -1,0 +1,12 @@
+* {
+    font-family: Hack Nerd Font;
+    font-size: 14px;
+    color: #4dffff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#window {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid #4dffff;
+    border-radius: 4px;
+}

@@ -1,0 +1,6 @@
+width = 30%
+height = 50%
+prompt =
+no-custom-entry = true
+hide-scroll = true
+matching = fuzzy
