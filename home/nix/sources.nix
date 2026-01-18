@@ -1,8 +1,8 @@
 {...}: {
   # Routes non-nix config files to their locations in .config.
   xdg.configFile = {
+    "alacritty/alacritty.toml".source = ../normal/alacritty/alacritty.toml;
     "fnott/fnott.ini".source = ../normal/fnott/fnott.ini;
-    "ghostty/config".source = ../normal/ghostty/config;
     "git/config".source = ../normal/git/config;
     "hypr/hyprland.conf".source = ../normal/hyprland/hyprland.conf;
     "nvim/init.lua".source = ../normal/neovim/init.lua;

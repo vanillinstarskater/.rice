@@ -15,11 +15,11 @@
     waybar.enable = true;
   };
   environment.systemPackages = [
+    pkgs.alacritty
     pkgs.discord
     pkgs.feh
     pkgs.fnott
     pkgs.gcc
-    pkgs.ghostty
     pkgs.hyprpolkitagent
     pkgs.keepassxc
     pkgs.krita
