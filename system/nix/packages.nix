@@ -21,6 +21,7 @@
     pkgs.feh
     pkgs.fnott
     pkgs.gcc
+    pkgs.grim
     pkgs.hyprpolkitagent
     pkgs.keepassxc
     pkgs.krita
@@ -29,6 +30,7 @@
     pkgs.polychromatic
     pkgs.python3
     pkgs.ripgrep
+    pkgs.slurp
     pkgs.spotify
     pkgs.swaybg
     pkgs.unzip
