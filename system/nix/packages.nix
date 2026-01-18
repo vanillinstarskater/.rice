@@ -22,6 +22,7 @@
     pkgs.ghostty
     pkgs.hyprpolkitagent
     pkgs.keepassxc
+    pkgs.krita
     pkgs.openrazer-daemon
     pkgs.pavucontrol
     pkgs.polychromatic
