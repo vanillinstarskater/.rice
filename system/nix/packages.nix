@@ -28,6 +28,7 @@
     pkgs.polychromatic
     pkgs.python3
     pkgs.ripgrep
+    pkgs.spotify
     pkgs.swaybg
     pkgs.unzip
     pkgs.vivaldi
