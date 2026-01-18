@@ -16,6 +16,7 @@
   };
   environment.systemPackages = [
     pkgs.alacritty
+    pkgs.blender
     pkgs.discord
     pkgs.feh
     pkgs.fnott
