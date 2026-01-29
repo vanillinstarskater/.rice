@@ -43,6 +43,7 @@
     pkgs.swaybg
     pkgs.unzip
     pkgs.vivaldi
+    pkgs.vlc
     pkgs.wofi
   ];
 }
