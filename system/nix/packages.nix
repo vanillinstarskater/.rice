@@ -16,6 +16,7 @@
   };
   environment.systemPackages = [
     pkgs.alacritty
+    pkgs.ardour
     pkgs.audacity
     pkgs.blender
     pkgs.discord
