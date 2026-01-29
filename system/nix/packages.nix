@@ -25,6 +25,14 @@
     pkgs.hyprpolkitagent
     pkgs.keepassxc
     pkgs.krita
+    (
+      pkgs.wrapOBS {
+        plugins = with pkgs.obs-studio-plugins; [
+          obs-pipewire-audio-capture
+          wlrobs
+        ];
+      }
+    )
     pkgs.openrazer-daemon
     pkgs.pavucontrol
     pkgs.polychromatic
