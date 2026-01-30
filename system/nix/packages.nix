@@ -19,6 +19,7 @@
     pkgs.ardour
     pkgs.audacity
     pkgs.blender
+    pkgs.cura-appimage
     pkgs.discord
     pkgs.feh
     pkgs.fnott
