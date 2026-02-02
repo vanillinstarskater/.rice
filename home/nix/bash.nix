@@ -11,8 +11,10 @@
       # I just retain absolutely everything no matter how insignificant.
       # Then I can dredge things back up with grep should something prove relevant later.
       # Sk for notes to just throw in the pile, skd for ones to keep on hand for a bit first.
+      # Skdn opens tomorrow's skd note, which is good for planning.
       alias sk='python ~/.rice/assets/sk.py'
       alias skd='python ~/.rice/assets/skd.py'
+      alias skdn='python ~/.rice/assets/skdn.py'
 
       alias vi='nvim'
       alias ls='ls --color=auto'
