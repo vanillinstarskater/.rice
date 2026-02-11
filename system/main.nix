@@ -11,5 +11,6 @@
     ./nix/nix.nix
     ./nix/packages.nix
     ./nix/pipewire.nix
+    ./nix/ssh.nix
   ];
 }
