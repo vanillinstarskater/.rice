@@ -21,10 +21,12 @@
     pkgs.blender
     pkgs.cura-appimage
     pkgs.discord
+    pkgs.fastfetch
     pkgs.feh
     pkgs.fnott
     pkgs.gcc
     pkgs.grim
+    pkgs.hyfetch
     pkgs.hyprpolkitagent
     pkgs.keepassxc
     pkgs.krita
