@@ -41,6 +41,7 @@
     pkgs.openrazer-daemon
     pkgs.pavucontrol
     pkgs.polychromatic
+    pkgs.prismlauncher
     pkgs.python3
     pkgs.ripgrep
     pkgs.slurp
