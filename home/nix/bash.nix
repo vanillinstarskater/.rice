@@ -18,6 +18,7 @@
 
       alias vi='nvim'
       alias ls='ls --color=auto'
+      alias sl='ls'
       alias la='ls -A'
       alias ll='ls -lh'
       alias l='ls -Alh'
