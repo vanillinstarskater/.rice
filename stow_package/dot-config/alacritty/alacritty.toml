@@ -4,8 +4,8 @@ ipc_socket = false
 
 [window]
 dynamic_padding = true
-decorations = "none"
-dynamic_title = false
+decorations = "None"
+opacity = 0.6
 
 [scrolling]
 multiplier = 1
