@@ -62,12 +62,14 @@ hl.animation({ leaf = "global", enabled = true, speed = 2, bezier = "default" })
 -- Actions
 hl.bind("SUPER + RETURN", hl.dsp.exec_cmd("alacritty"))
 hl.bind("SUPER + SPACE", hl.dsp.exec_cmd("wofi"))
-hl.bind("SUPER + S", hl.dsp.exec_cmd("steam"))
-hl.bind("SUPER + D", hl.dsp.exec_cmd("discord"))
+hl.bind("SUPER + A", hl.dsp.exec_cmd("krita"))
 hl.bind("SUPER + B", hl.dsp.exec_cmd("firefox"))
-hl.bind("SUPER + P", hl.dsp.window.float({ action = "toggle" }))
-hl.bind("SUPER + F", hl.dsp.window.fullscreen({ action = "toggle" }))
+hl.bind("SUPER + D", hl.dsp.exec_cmd("discord"))
+hl.bind("SUPER + S", hl.dsp.exec_cmd("steam"))
+
 hl.bind("SUPER + C", hl.dsp.window.close())
+hl.bind("SUPER + F", hl.dsp.window.fullscreen({ action = "toggle" }))
+hl.bind("SUPER + P", hl.dsp.window.float({ action = "toggle" }))
 
 -- Intra-workspace navigation
 hl.bind("SUPER + H", hl.dsp.focus({ direction = "left" }))
