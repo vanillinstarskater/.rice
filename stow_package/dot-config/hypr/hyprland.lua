@@ -71,6 +71,9 @@ hl.bind("SUPER + C", hl.dsp.window.close())
 hl.bind("SUPER + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 hl.bind("SUPER + P", hl.dsp.window.float({ action = "toggle" }))
 
+hl.bind("SUPER + G", hl.dsp.exec_cmd("razer-cli -b 100"))
+hl.bind("SUPER + SHIFT + G", hl.dsp.exec_cmd("razer-cli -b 0"))
+
 -- Intra-workspace navigation
 hl.bind("SUPER + H", hl.dsp.focus({ direction = "left" }))
 hl.bind("SUPER + SHIFT + H", hl.dsp.window.move({ direction = "left" }))
