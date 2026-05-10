@@ -110,6 +110,9 @@ for i = 1, 10 do
     hl.bind("SUPER + SHIFT + " .. key, split_aware_move)
 end
 
+-- Make drawing tablet work
+hl.device({ name = "wacom-intuos-bt-m-pen", output = "DP-1", transform = 0 })
+
 -- Move/resize windows with "SUPER" + LMB/RMB and dragging
 hl.bind("SUPER + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind("SUPER + mouse:273", hl.dsp.window.resize(), { mouse = true })
