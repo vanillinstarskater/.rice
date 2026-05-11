@@ -62,6 +62,7 @@ hl.animation({ leaf = "global", enabled = true, speed = 2, bezier = "default" })
 -- Actions
 hl.bind("SUPER + RETURN", hl.dsp.exec_cmd("alacritty"))
 hl.bind("SUPER + SPACE", hl.dsp.exec_cmd("wofi"))
+hl.bind("SUPER + ESCAPE", hl.dsp.workspace.swap_monitors({ monitor1 = "DP-1", monitor2 = "DP-2" }))
 hl.bind("SUPER + A", hl.dsp.exec_cmd("krita"))
 hl.bind("SUPER + B", hl.dsp.exec_cmd("firefox"))
 hl.bind("SUPER + D", hl.dsp.exec_cmd("discord"))
