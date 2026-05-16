@@ -480,6 +480,7 @@ do
 		notify_on_error = false,
 		format_on_save = {},
 		default_format_opts = { lsp_format = "prefer" },
+		formatters_by_ft = { python = { "black" } },
 	})
 
 	vim.keymap.set({ "n", "v" }, "<leader>f", function()
