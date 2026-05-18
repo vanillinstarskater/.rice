@@ -12,7 +12,7 @@ if status is-interactive
 
     function fish_prompt
         set -l last_status $status
-        echo -s (set_color green)"["$USER"@"(prompt_hostname)":"(prompt_pwd)"]"(set_color --reset)"-"(set_color red)"["$last_status"]"(set_color blue) (fish_git_prompt)
+        echo -s (set_color green)"["$USER"@"(prompt_hostname)":"(prompt_pwd)"]"(set_color --reset)"-"(set_color red)"["$last_status"]"(set_color blue) (fish_git_prompt) (set_color purple)"<"$CMD_DURATION"ms>"
         echo -n '> '
     end
 end
